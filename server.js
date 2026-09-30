@@ -938,7 +938,7 @@ async function analyzeWithAI(
 
       model: "gpt-5.6-luna",
 
-      temperature: .1,
+      temperature: 1,
 
       max_completion_tokens: 2000,
 
