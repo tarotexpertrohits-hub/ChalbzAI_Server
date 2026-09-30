@@ -936,11 +936,11 @@ async function analyzeWithAI(
   const response =
     await openai.chat.completions.create({
 
-      model: MODEL,
+      model: "gpt-5.6-luna",
 
       temperature: 0.1,
 
-      max_tokens: 300,
+      max_completion_tokens: 2000,
 
       messages: [
 
